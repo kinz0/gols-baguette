@@ -13,6 +13,7 @@ import OrderScannerscreen from './screens/OrderScannerscreen';
 import RedisOrderScannerscreen from './screens/RedisOrderScannerscreen';
 import Cartscreen from './screens/Cartscreen';
 import Confirmationscreen from './screens/Confirmationscreen';
+import aboutUS from './screens/Aboutus';
 
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route path='/order/:hash' component={RedisOrderScannerscreen} />
           <Route path='/:user/cart/:product?' component={Cartscreen} />
           <Route path='/confirmation/:hash/:cartid?' component={Confirmationscreen} />
+          <Route path='/aboutus' component={aboutUS} />
         </Container>        
       </main>
 

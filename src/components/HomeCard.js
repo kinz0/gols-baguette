@@ -7,12 +7,11 @@ function HomeCard() {
   return (
     <Container>
       <Row>
-        <Col className="sm">
+        <Col className="sm" xs={12}>
           <Card className="my-3 p-3 rounded text-center">
             <Link to={`/userscanner`}>
-              <Card.Img className="" src="/images/qr-code-gif.gif" />
+              <Card.Img className="logobreakpoint mx-0" src="/images/qr-code-gif.gif" />
             </Link>
-
             <Card.Body>
               <Link to={`/userscanner`} style={{ textDecoration: "none" }}>
                 <Card.Title as="h1">掃描二維碼</Card.Title>
@@ -23,7 +22,7 @@ function HomeCard() {
       </Row>
 
       <Row>
-        <Col className="xs" xs={12}>
+        <Col className="xs" xs={6}>
           <Card className="my-3 p-3 rounded text-center">
             <Card.Body>
               <Card.Title as="h1">電話查詢</Card.Title>

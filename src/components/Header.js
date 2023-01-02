@@ -17,7 +17,7 @@ function Header() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/">主頁</Nav.Link>
-              <Nav.Link href="/about">關於我們</Nav.Link>
+              <Nav.Link href="/aboutus">關於我們</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
