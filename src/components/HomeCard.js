@@ -23,14 +23,7 @@ function HomeCard() {
       </Row>
 
       <Row>
-        <Col className="xs" xs={6}>
-          <Card className="my-3 p-3 rounded text-center">
-            <Card.Body>
-              <Card.Title as="h1">語音導航</Card.Title>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col className="xs" xs={6}>
+        <Col className="xs" xs={12}>
           <Card className="my-3 p-3 rounded text-center">
             <Card.Body>
               <Card.Title as="h1">電話查詢</Card.Title>
